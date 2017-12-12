@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/color_1B1D2A</color>
+    <color name="colorPrimaryDark">@color/color_1B1D2A</color>
+    <color name="colorAccent">#7B69FF</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="background">#fff7f9f9</color>
+
+    <!--<color name="colorPrimary">@color/color_e7384a</color>-->
+    <!--<color name="colorPrimaryDark">@color/color_e7384a</color>-->
+    <!--<color name="colorAccent">@color/color_e7384a</color>-->
+    <color name="color_7b69ff">#7B69FF</color>
+    <color name="color_212330">#212330</color>
+    <color name="color_676975">#676975</color>
+    <color name="color_1B1D2A">#1B1D2A</color>
+    <color name="color_06070B">#06070B</color>
+    <color name="color_A8A8A8">#A8A8A8</color>
+    <color name="color_E9E9E9">#E9E9E9</color>
+    <color name="color_CC75FF">#CC75FF</color>
+    <color name="color_666666">#666666</color>
+    <color name="color_22242F">#22242F</color>
+    <color name="color_323443">#323443</color>
+    <color name="color_D1D1D1">#D1D1D1</color>
+    <color name="color_CDCDCD">#CDCDCD</color>
+
+
+    <color name="color_334455">#334455</color>
+    <color name="color_fff">#fff</color>
+    <color name="color_20fff">#34ffffff</color>
+    <color name="color_7f000000">#7f000000</color>
+
+    <color name="color_a965f4">#a965f4</color>
+    <color name="color_3c4444">#3c4444</color>
+    <color name="color_232930">#232930</color>
+
+    <color name="color_b4b4b4">#b4b4b4</color>
+    <color name="color_1c1c1c">#1c1c1c</color>
+    <color name="color_5b5b5b">#5b5b5b</color>
+    <color name="color_f5f5f5">#f5f5f5</color>
+    <color name="color_e9e9e9">#e9e9e9</color>
+
+    <color name="tab_text_color">@color/color_334455</color>
+
+    <color name="color_f60808">#f60808</color>
+    <color name="color_30323E">#30323E</color>
+    <color name="color_F5F5F5">#F5F5F5</color>
+</resources>

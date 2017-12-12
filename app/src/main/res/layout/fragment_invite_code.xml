@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/color_fff"
+              android:gravity="center_horizontal"
+              android:orientation="vertical">
+
+    <include layout="@layout/widget_toolbar"/>
+
+    <TextView
+        style="@style/Theme.Partner.Text.dark.16"
+        android:layout_marginTop="70dp"
+        android:text="@string/partner_personal_your_invite_code"/>
+
+    <TextView
+        android:id="@+id/invite_code_tv"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_invite_code"
+        android:gravity="center"
+        android:textColor="@color/color_7b69ff"
+        android:textSize="@dimen/text_size_40"/>
+</LinearLayout>

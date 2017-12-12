@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_horizontal"
+              android:orientation="vertical"
+              android:paddingLeft="15dp"
+              android:paddingRight="15dp">
+
+    <EditText
+        android:id="@+id/password_edit"
+        style="@style/Widget.Partner.Register_EditText"
+        android:layout_marginTop="24dp"
+        android:hint="@string/please_input_password"
+        android:inputType="textPassword"
+        android:maxLength="20"/>
+
+    <EditText
+        android:id="@+id/reinput_password_edit"
+        style="@style/Widget.Partner.Register_EditText"
+        android:layout_marginTop="24dp"
+        android:hint="@string/please_reinput_password"
+        android:inputType="textPassword"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:maxLength="20"
+        android:text="@string/please_verify_password"
+        android:textColor="@color/color_A8A8A8"
+        android:textSize="@dimen/text_size_11"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/bg_gray_light_input"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="@string/generalize_code"
+            android:textColor="@color/color_06070B"
+            android:textSize="@dimen/text_size_14"/>
+
+        <EditText
+            android:id="@+id/generalize_code_edit"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:hint="@string/please_input_generalize_code"
+            android:paddingLeft="8dp"
+            android:text=""
+            android:textColor="@color/color_06070B"
+            android:textColorHint="@color/color_A8A8A8"
+            android:textSize="@dimen/text_size_14"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:text="@string/generalize_code_dispensable"
+        android:textColor="@color/color_A8A8A8"
+        android:textSize="@dimen/text_size_11"/>
+
+    <Button
+        android:id="@+id/complete_btn"
+        style="@style/Widget.Partner.Login_Btn"
+        android:layout_marginTop="24dp"
+        android:text="@string/complete"/>
+</LinearLayout>

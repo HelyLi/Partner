@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/hely.lixiong/Downloads/Partner1.0/bannerlibrary/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/hely.lixiong/.android/build-cache/bca48239eeff5d819fe562d3475653d2940b1892/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/hely.lixiong/Downloads/Partner1.0/bannerlibrary/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/hely.lixiong/.android/build-cache/bca48239eeff5d819fe562d3475653d2940b1892/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/hely.lixiong/Downloads/Partner1.0/bannerlibrary/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/hely.lixiong/.android/build-cache/bca48239eeff5d819fe562d3475653d2940b1892/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/hely.lixiong/Downloads/Partner1.0/bannerlibrary/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/hely.lixiong/.android/build-cache/bca48239eeff5d819fe562d3475653d2940b1892/output/res/layout-v21/notification_template_icon_group.xml"
+    }
+]

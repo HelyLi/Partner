@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_323443"
+                android:padding="15dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:drawableLeft="@drawable/ic_cash_account_add_card"
+        android:drawablePadding="10dp"
+        android:gravity="center_vertical"
+        android:text="@string/partner_personal_account_add_card"
+        android:textColor="@color/color_fff"
+        android:textSize="@dimen/text_size_14"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:drawablePadding="15dp"
+        android:drawableRight="@drawable/ic_personal_arrow_right"
+        android:gravity="center_vertical"
+        android:textColor="@color/color_A8A8A8"
+        android:textSize="@dimen/text_size_12"/>
+</RelativeLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/color_fff"
+              android:orientation="vertical">
+
+    <TextView
+        style="@style/Theme.Partner.Text.dark.14"
+        android:drawableLeft="@drawable/ic_custom_hot_game"
+        android:drawablePadding="9dp"
+        android:gravity="center_vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="10dp"
+        android:text="@string/partner_product_hot_game"/>
+
+    <include layout="@layout/widget_divide"/>
+
+    <include layout="@layout/inside_recycler_view"/>
+
+</LinearLayout>

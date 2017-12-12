@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="BaseTheme">
+        <attr name="toolbarBackground" format="reference"/>
+        <attr name="divideBackground" format="reference"/>
+    </declare-styleable>
+
+    <attr name="title_bar_height" format="dimension"/>
+
+    <declare-styleable name="CustomRoundImageView">
+        <attr name="x_round" format="dimension"/>
+        <attr name="y_round" format="dimension"/>
+    </declare-styleable>
+    <string-array name="bank_names">
+        <item>农业银行</item>
+        <item>建设银行</item>
+        <item>中国银行</item>
+        <item>工商银行</item>
+        <item>招商银行</item>
+        <item>交通银行</item>
+        <item>邮政储蓄银行</item>
+        <item>中信银行</item>
+        <item>光大银行</item>
+        <item>民生银行</item>
+        <item>平安银行</item>
+        <item>广发银行</item>
+        <item>华夏银行</item>
+        <item>浦发银行</item>
+    </string-array>
+
+    <attr name="borderRadius" format="dimension"/>
+    <attr name="type">
+        <enum name="circle" value="0"/>
+        <enum name="round" value="1"/>
+    </attr>
+
+    <declare-styleable name="RoundImageView">
+        <attr name="borderRadius"/>
+        <attr name="type"/>
+    </declare-styleable>
+
+    <declare-styleable name="RatioLayout">
+        <attr name="ratio_width_percent" format="float"/>
+    </declare-styleable>
+
+    <!-- Defines the custom XML attributes supported for a HorizontalListView -->
+    <declare-styleable name="HorizontalListView">
+        <attr name="dividerWidth" format="dimension"/>
+        <attr name="android:divider"/>
+        <attr name="android:requiresFadingEdge"/>
+        <attr name="android:fadingEdgeLength"/>
+    </declare-styleable>
+
+    <!-- SimpleButton，简写sb -->
+    <declare-styleable name="SimpleButton">
+        <attr name="sb_mode" format="enum">
+            <enum name="normal" value="201"/>
+            <enum name="check" value="202"/>
+            <enum name="icon_check_invisible" value="203"/>
+            <enum name="icon_check_change" value="204"/>
+        </attr>
+        <attr name="sb_shape" format="enum">
+            <enum name="round_rect" value="101"/>
+            <enum name="arc" value="102"/>
+            <enum name="rect" value="103"/>
+        </attr>
+        <!-- 3、5 是Gravity里定义的值 -->
+        <attr name="sb_gravity" format="enum">
+            <enum name="left" value="3"/>
+            <enum name="right" value="5"/>
+        </attr>
+        <attr name="sb_auto_check" format="boolean"/>
+        <attr name="sb_checked" format="boolean"/>
+        <attr name="sb_bg_color" format="color"/>
+        <attr name="sb_border_color" format="color"/>
+        <attr name="sb_text_color" format="color"/>
+        <attr name="sb_bg_color_check" format="color"/>
+        <attr name="sb_border_color_check" format="color"/>
+        <attr name="sb_text_color_check" format="color"/>
+        <attr name="sb_text" format="string"/>
+        <attr name="sb_text_check" format="string"/>
+        <attr name="sb_text_size" format="dimension"/>
+        <attr name="sb_border_width" format="dimension"/>
+        <attr name="sb_border_radius" format="dimension"/>
+        <attr name="sb_vertical_padding" format="dimension"/>
+        <attr name="sb_horizontal_padding" format="dimension"/>
+        <attr name="sb_icon_padding" format="dimension"/>
+        <attr name="sb_icon" format="reference"/>
+        <attr name="sb_icon_change" format="reference"/>
+    </declare-styleable>
+    <!--带数字的进度条 -->
+    <declare-styleable name="HorizontalProgressBarWithNumber">
+        <attr name="progress_unreached_color" format="color"/>
+        <attr name="progress_reached_color" format="color"/>
+        <attr name="progress_reached_bar_height" format="dimension"/>
+        <attr name="progress_unreached_bar_height" format="dimension"/>
+        <attr name="progress_text_size" format="dimension"/>
+        <attr name="progress_text_color" format="color"/>
+        <attr name="progress_text_offset" format="dimension"/>
+        <attr name="progress_text_visibility" format="enum">
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>

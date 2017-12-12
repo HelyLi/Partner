@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/color_e9e9e9"
+              android:paddingTop="15dp"
+              android:paddingLeft="15dp"
+              android:paddingRight="15dp"
+              android:orientation="vertical">
+
+
+    <TextView
+            android:id="@+id/extension_tv"
+            android:layout_width="match_parent"
+            android:background="@color/color_f5f5f5"
+            style="@style/Theme.Partner.Text.dark.18"
+            android:text="@string/partner_url_h5"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:maxLines="1"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:gravity="center_vertical"
+            android:layout_height="51dp"/>
+
+    <RelativeLayout android:layout_width="match_parent"
+                    android:background="@color/color_f5f5f5"
+                    android:layout_marginTop="15dp"
+                    android:layout_height="346dp">
+
+
+        <ImageView
+                android:id="@+id/extension_iv"
+                android:layout_width="250dp"
+                android:layout_centerInParent="true"
+                android:layout_height="250dp"/>
+        <!--android:src="@drawable/qr_code"-->
+
+
+    </RelativeLayout>
+
+    <Button
+            android:id="@+id/custom_page"
+            android:layout_width="match_parent"
+            style="@style/Theme.Partner.Text.white.18"
+            android:layout_marginTop="25dp"
+            android:visibility="gone"
+            android:text="@string/home_extension_custom_page"
+            android:background="@drawable/btn_login_selector"
+            android:layout_height="50dp"/>
+
+</LinearLayout>

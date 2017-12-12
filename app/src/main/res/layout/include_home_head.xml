@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_225"
+                android:background="@drawable/bg_income_statistic">
+
+    <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/dp_73"
+            android:text="@string/partner_home_today_money"
+            android:textColor="@color/color_fff"
+            android:textSize="@dimen/text_size_14"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/home_money"
+            android:layout_width="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/dp_103"
+            android:textColor="@color/color_fff"
+            android:text="@string/partner_home_today_money_num"
+            android:textSize="@dimen/text_size_40"
+            android:layout_height="wrap_content"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:background="#35FFFFFF"
+            android:layout_alignParentBottom="true"
+            android:layout_height="@dimen/dp_61">
+
+        <RelativeLayout
+                android:id="@+id/home_proxy_people"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+
+            <TextView
+                    android:id="@+id/home_proxy_people_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/dp_13"
+                    android:text="@string/partner_home_proxy_people"
+                    android:textColor="@color/color_fff"
+                    android:textSize="@dimen/text_size_14"
+                    android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:id="@+id/home_proxy_people_num"
+                    android:layout_width="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/dp_34"
+                    android:textColor="@color/color_fff"
+                    android:textSize="@dimen/text_size_18"
+                    android:text="@string/partner_home_proxy_num"
+                    android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+                android:id="@+id/home_proxy_product"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_centerHorizontal="true"
+                      android:layout_marginTop="@dimen/dp_13"
+                      android:text="@string/partner_home_proxy_product"
+                      android:textColor="@color/color_fff"
+                      android:textSize="@dimen/text_size_14"
+                      android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:id="@+id/home_proxy_product_num"
+                    android:layout_width="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/dp_34"
+                    android:textColor="@color/color_fff"
+                    android:textSize="@dimen/text_size_18"
+                    android:text="@string/partner_home_proxy_num"
+                    android:layout_height="wrap_content"/>
+
+
+        </RelativeLayout>
+        <RelativeLayout
+                android:id="@+id/home_proxy_pay_count"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_centerHorizontal="true"
+                      android:layout_marginTop="@dimen/dp_13"
+                      android:text="@string/partner_home_proxy_pay_count"
+                      android:textColor="@color/color_fff"
+                      android:textSize="@dimen/text_size_14"
+                      android:layout_height="wrap_content"/>
+
+            <TextView
+                    android:id="@+id/home_proxy_pay_count_num"
+                    android:layout_width="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/dp_34"
+                    android:textColor="@color/color_fff"
+                    android:textSize="@dimen/text_size_18"
+                    android:text="@string/partner_home_proxy_num"
+                    android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>
+
+
+

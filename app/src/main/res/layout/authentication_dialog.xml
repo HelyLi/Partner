@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@drawable/bg_white_ten_round"
+              android:gravity="center_horizontal"
+              android:orientation="vertical"
+              android:paddingLeft="20dp"
+              android:paddingRight="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/partner_personal_account_for_safe"
+        android:textColor="@color/color_1B1D2A"
+        android:textSize="@dimen/text_size_16"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/partner_personal_account_auth_info"
+        android:textColor="@color/color_1B1D2A"
+        android:textSize="@dimen/text_size_14"/>
+
+    <Button
+        android:id="@+id/auth_now_btn"
+        style="@style/Widget.Partner.Login_Btn"
+        android:layout_marginTop="30dp"
+        android:text="@string/partner_personal_account_auth_now"/>
+
+    <Button
+        android:id="@+id/auth_later_btn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:text="@string/partner_personal_account_auth_later"
+        android:textColor="@color/color_7b69ff"
+        android:textSize="@dimen/text_size_16"/>
+</LinearLayout>

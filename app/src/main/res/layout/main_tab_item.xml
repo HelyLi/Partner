@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+       android:clickable="true"
+       android:foreground="?android:attr/selectableItemBackground">
+
+    <ImageView
+        android:id="@+id/tab_icon"
+        android:layout_width="@dimen/tab_width"
+        android:layout_height="@dimen/tab_height"
+        android:layout_marginTop="@dimen/tab_margin_top"
+        android:scaleType="fitXY"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@null"/>
+
+    <TextView
+        android:id="@+id/tab_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tab_icon"
+        android:layout_marginTop="@dimen/tab_text_margin_top"
+        android:textSize="@dimen/tab_text_size"
+        android:ellipsize="none"
+        android:maxLength="4"
+        android:textColor="@color/ic_tab_text_color"/>
+
+    <!--<include layout="@layout/widget_notify"/>-->
+
+</merge>

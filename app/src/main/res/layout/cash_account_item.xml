@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/root_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/bg_cash_account_abc"
+                android:padding="15dp">
+
+    <ImageView
+        android:id="@+id/bank_iv"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_cash_account_abc"/>
+
+    <TextView
+        android:id="@+id/bank_name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/bank_iv"
+        android:text="@string/login"
+        android:textColor="@color/color_fff"
+        android:textSize="@dimen/text_size_18"/>
+
+    <TextView
+        android:id="@+id/card_type_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/bank_name_tv"
+        android:layout_below="@+id/bank_name_tv"
+        android:layout_marginTop="8dp"
+        android:text="@string/partner_personal_account_deposit_card"
+        android:textColor="@color/color_fff"
+        android:textSize="@dimen/text_size_14"/>
+
+    <TextView
+        android:id="@+id/card_number_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/color_fff"
+        android:textSize="@dimen/text_size_16"/>
+</RelativeLayout>

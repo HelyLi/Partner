@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="92dp"
+                android:background="?android:selectableItemBackground"
+                android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/add_game_layout"
+        android:layout_width="166dp"
+        android:layout_height="61dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/ic_custom_add_game">
+
+        <TextView
+            style="@style/Theme.Partner.Text.blue.18"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="65dp"
+            android:layout_marginStart="65dp"
+            android:text="@string/home_agent_extension_add_game"/>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,58 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        jcenter()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.3.3'
+        classpath 'org.greenrobot:greendao-gradle-plugin:3.2.2'
+        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.5'
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        mavenCentral()
+        maven {
+            url "https://jitpack.io"
+        }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+ext{
+    buildToolsVer = '25.0.0'
+    compileSdkVer = 24
+    targetSdkVer = 23
+    minSdkVer = 16
+    supportLibVer = '25.1.1'
+    junitVer = '4.12'
+
+    rxbindingVer='2.0.0'
+    retrofitVer = '2.2.0'
+    gsonVer = '2.8.0'
+    okHttpVer = '3.4.2'
+    rxJavaVer = '2.0.7'
+    rxAndroidVer = '2.0.1'
+    rxlifecycleVer='2.0.1'
+    rxlifecycleComponentsVer='2.0.1'
+    rxPermissionsVer='0.9.4@aar'
+    glideVer = '3.7.0'
+    loggerVer = '1.15'
+    greendaoVer='3.2.2'
+    butterKnifeVer = '8.4.0'
+    baseRecyclerViewHelperVer = '2.9.12'
+    MPAndroidChartVer = 'v3.0.2'
+    flowLayoutVer='1.0.3'
+    zxingCoreVer='3.3.0'
+    NestFullListViewVer='V1.0.0'
+}

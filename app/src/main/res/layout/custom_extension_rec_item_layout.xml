@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <com.hhly.partner.presentation.view.widget.RoundImageView
+        android:layout_width="match_parent"
+        android:layout_height="91dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_custom_recommend_default"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp">
+
+        <TextView
+            android:id="@+id/play_game_tv"
+            style="@style/Theme.Partner.Text.gray.14"
+            android:text="@string/home_agent_extension_play_game"/>
+
+        <TextView
+            android:id="@+id/android_tv"
+            style="@style/Theme.Partner.Text.gray.10"
+            android:layout_below="@+id/play_game_tv"
+            android:layout_marginTop="10dp"
+            android:text="@string/partner_product_android_game"/>
+
+        <TextView
+            style="@style/Theme.Partner.Text.gray.10"
+            android:layout_alignTop="@+id/android_tv"
+            android:layout_marginLeft="9dp"
+            android:layout_toRightOf="@+id/android_tv"
+            android:drawableLeft="@drawable/ic_custom_person_num"
+            android:drawablePadding="5dp"
+            android:gravity="center_vertical"
+            android:text="@string/home_agent_extension_play_num"/>
+
+        <TextView
+            style="@style/Theme.Partner.Text.white.12"
+            android:layout_width="53dp"
+            android:layout_height="28dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/bg_gray_five_round"
+            android:gravity="center"
+            android:text="@string/home_agent_extension_in"/>
+    </RelativeLayout>
+</LinearLayout>

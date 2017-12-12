@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/add_game_layout"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="?android:selectableItemBackground"
+              android:gravity="center_horizontal"
+              android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/game_logo_img"
+        android:layout_width="76dp"
+        android:layout_height="76dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_custom_add_game_large"/>
+
+    <TextView
+        style="@style/Theme.Partner.Text.blue.14"
+        android:layout_marginTop="5dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="@string/home_agent_extension_add_game"/>
+</LinearLayout>

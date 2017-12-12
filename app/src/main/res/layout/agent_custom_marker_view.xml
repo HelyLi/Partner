@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:paddingLeft="5dp"
+              android:paddingRight="5dp"
+              android:paddingTop="3dp"
+              android:paddingBottom="3dp"
+              android:background="@drawable/bg_black_five_round"
+              android:layout_marginBottom="5dp"
+              android:layout_marginLeft="5dp"
+              android:layout_marginRight="5dp"
+              android:orientation="vertical">
+    <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:text="@string/partner_statistics"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size_12"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/tvContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text=""
+            android:gravity="center_vertical"
+            android:layout_gravity="center_vertical"
+            android:drawableLeft="@drawable/circle_white_fill"
+            android:drawableStart="@drawable/circle_white_fill"
+            android:drawablePadding="3dp"
+            android:textSize="@dimen/text_size_12"
+            android:textColor="@android:color/white"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_white_and_gray_selector"
+                android:paddingBottom="10dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="10dp">
+
+    <com.hhly.partner.presentation.view.widget.RoundImageView
+        android:id="@+id/game_logo_img"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/game_name_tv"
+        style="@style/Theme.Partner.Text.dark.16"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/game_logo_img"/>
+
+    <TextView
+        android:id="@+id/proxy_num_tv"
+        style="@style/Theme.Partner.Text.gray.10"
+        android:layout_alignLeft="@+id/game_name_tv"
+        android:layout_below="@+id/game_name_tv"
+        android:layout_marginTop="6dp"/>
+
+    <TextView
+        android:id="@+id/proportion_tv"
+        style="@style/Theme.Partner.Text.blue.12"
+        android:layout_alignLeft="@+id/proxy_num_tv"
+        android:layout_below="@+id/proxy_num_tv"
+        android:text="@string/partner_product_proxy_ratio"
+        android:layout_marginTop="13dp"/>
+
+    <Button
+        android:id="@+id/generalize_btn"
+        android:layout_width="61dp"
+        android:layout_height="28dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg_blue_fifteen_round"
+        android:gravity="center"
+        android:text="@string/partner_product_generalize"
+        android:textColor="@color/color_fff"/>
+</RelativeLayout>

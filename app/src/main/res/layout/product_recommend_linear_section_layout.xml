@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/section_title_tv"
+        style="@style/Theme.Partner.Text.dark.14"
+        android:layout_width="match_parent"
+        android:background="@color/color_fff"
+        android:drawablePadding="15dp"
+        android:gravity="center_vertical"
+        android:paddingBottom="8dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="8dp"/>
+
+    <include layout="@layout/widget_divide"/>
+
+    <com.hhly.partner.presentation.view.widget.NoScrollRecycleView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_fff"
+        android:paddingBottom="15dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp"/>
+</LinearLayout>

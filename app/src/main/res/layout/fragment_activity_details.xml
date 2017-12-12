@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/color_fff"
+              android:gravity="center_horizontal"
+              android:orientation="vertical">
+
+    <include layout="@layout/widget_toolbar"/>
+
+    <com.hhly.partner.presentation.view.widget.NestedSwipeRefreshLayout
+        android:id="@+id/refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp">
+
+                <TextView
+                    android:id="@+id/activity_title_tv"
+                    style="@style/Theme.Partner.Text.dark.16"
+                    android:layout_centerHorizontal="true"/>
+
+                <TextView
+                    android:id="@+id/author_tv"
+                    style="@style/Theme.Partner.Text.gray.12"
+                    android:layout_below="@+id/activity_title_tv"
+                    android:layout_marginTop="15dp"/>
+
+                <TextView
+                    android:id="@+id/date_tv"
+                    style="@style/Theme.Partner.Text.gray.12"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignTop="@+id/author_tv"/>
+
+                <ImageView
+                    android:id="@+id/activity_img"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/author_tv"
+                    android:layout_marginTop="10dp"
+                    android:scaleType="fitXY"/>
+
+                <TextView
+                    android:id="@+id/activity_content_tv"
+                    style="@style/Theme.Partner.Text.dark.14"
+                    android:layout_below="@+id/activity_img"
+                    android:layout_marginTop="10dp"/>
+            </RelativeLayout>
+        </ScrollView>
+    </com.hhly.partner.presentation.view.widget.NestedSwipeRefreshLayout>
+</LinearLayout>

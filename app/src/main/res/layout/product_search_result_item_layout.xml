@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+          android:id="@+id/game_name_tv"
+          style="@style/Theme.Partner.Text.dark.14"
+          android:layout_width="match_parent"
+          android:layout_height="50dp"
+          android:background="@drawable/bg_white_and_gray_selector"
+          android:ellipsize="end"
+          android:gravity="center_vertical"
+          android:maxLines="1"
+          android:paddingLeft="15dp"
+          android:paddingRight="15dp">
+
+</TextView>

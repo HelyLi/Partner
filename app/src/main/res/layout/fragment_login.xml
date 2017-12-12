@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:id="@+id/root"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <android.support.v4.widget.NestedScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+    >
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:paddingLeft="15dp"
+                android:background="@drawable/bg_login"
+                android:paddingRight="15dp">
+
+            <EditText
+                android:id="@+id/accountEidt"
+                style="@style/Widget.Partner.Login_EditText"
+                android:layout_marginTop="321dp"
+                android:inputType="phone"
+                android:maxLength="11"
+                android:hint="@string/account" />
+
+            <EditText
+                android:id="@+id/passwordEdit"
+                style="@style/Widget.Partner.Login_EditText"
+                android:layout_marginTop="24dp"
+                android:inputType="textPassword"
+                android:hint="@string/password" />
+
+            <Button
+                android:id="@+id/loginBtn"
+                style="@style/Widget.Partner.Login_Btn"
+                android:layout_marginTop="24dp"
+                android:text="@string/login" />
+
+            <TextView
+                    android:id="@+id/forgetPasswordText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:drawableLeft="@drawable/ic_forget_password"
+                    android:drawablePadding="8dp"
+                    android:text="@string/forget_password"
+                    android:textColor="@color/color_fff"/>
+
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="23dp"
+                    android:paddingLeft="82dp"
+                    android:paddingRight="82dp">
+
+                <TextView
+                        android:id="@+id/wechatLoginText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawablePadding="10dp"
+                        android:drawableTop="@drawable/bg_wechat_login_selector"
+                        android:gravity="center_horizontal"
+                        android:text="@string/wechat"
+                        android:textColor="@color/color_fff"
+                        android:textSize="@dimen/text_size_10"/>
+
+                <TextView
+                        android:id="@+id/weiboLoginText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:drawablePadding="10dp"
+                        android:drawableTop="@drawable/ic_weibo_normal"
+                        android:gravity="center_horizontal"
+                        android:text="@string/weibo"
+                        android:textColor="@color/color_fff"
+                        android:textSize="@dimen/text_size_10"/>
+
+                <TextView
+                        android:id="@+id/qqLoginText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:drawablePadding="10dp"
+                        android:drawableTop="@drawable/ic_qq_normal"
+                        android:gravity="center_horizontal"
+                        android:text="@string/qq"
+                        android:textColor="@color/color_fff"
+                        android:textSize="@dimen/text_size_10"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    <include layout="@layout/widget_toolbar"/>
+</FrameLayout>

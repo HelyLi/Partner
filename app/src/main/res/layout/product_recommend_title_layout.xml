@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="@color/color_e9e9e9"/>
+
+    <TextView
+        android:id="@+id/section_title_tv"
+        style="@style/Theme.Partner.Text.dark.14"
+        android:layout_width="match_parent"
+        android:background="@color/color_fff"
+        android:drawablePadding="15dp"
+        android:gravity="center_vertical"
+        android:paddingBottom="8dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="8dp"
+        android:text="@string/partner_product_max_proxy"/>
+
+    <include layout="@layout/widget_divide"/>
+</LinearLayout>

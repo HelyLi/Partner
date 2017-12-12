@@ -1,0 +1,11 @@
+package com.hhly.partner.data.net.protocol.proxy;
+
+import com.hhly.partner.data.net.protocol.BaseReq;
+
+/**
+ * description :
+ * Created by Flynn
+ * 2017/4/13
+ */
+public class GetTodayRechargeSumReq extends BaseReq {
+}

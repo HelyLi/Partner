@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/hely.lixiong/Downloads/Partner1.0/bannerlibrary/src/main/assets"/><source path="/Users/hely.lixiong/Downloads/Partner1.0/bannerlibrary/build/generated/assets/shaders/release"/></dataSet><dataSet config="release"><source path="/Users/hely.lixiong/Downloads/Partner1.0/bannerlibrary/src/release/assets"/></dataSet></merger>

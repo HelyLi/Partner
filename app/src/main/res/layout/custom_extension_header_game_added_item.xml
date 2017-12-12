@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="92dp"
+                android:background="?android:selectableItemBackground"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp">
+
+
+    <com.hhly.partner.presentation.view.widget.RoundImageView
+        android:id="@+id/game_logo_img"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_centerVertical="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_product_action_game_loading"/>
+
+    <TextView
+        android:id="@+id/game_name_tv"
+        style="@style/Theme.Partner.Text.dark.16"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_toLeftOf="@+id/delete_btn"
+        android:layout_toRightOf="@+id/game_logo_img"/>
+
+
+    <Button
+        android:id="@+id/delete_btn"
+        android:layout_width="61dp"
+        android:layout_height="28dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg_blue_fifteen_round"
+        android:gravity="center"
+        android:text="@string/partner_delete"
+        android:textColor="@color/color_fff"/>
+</RelativeLayout>

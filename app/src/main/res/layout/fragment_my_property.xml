@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/color_fff"
+              android:orientation="vertical">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/refresh_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+            <RelativeLayout
+                    android:id="@+id/money_rl"
+                    android:layout_width="match_parent"
+                    android:background="@color/color_1B1D2A"
+                    android:layout_height="155dp">
+
+                <TextView
+                        android:id="@+id/money_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="40dp"
+                        android:text="@string/home_my_assets_money_description"
+                        style="@style/Theme.Partner.Text.white.14"
+                        android:layout_height="wrap_content"/>
+
+                <TextView
+                        android:id="@+id/money"
+                        android:layout_width="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@+id/money_tv"
+                        android:text="@string/home_my_assets_money"
+                        android:layout_marginTop="17dp"
+                        android:textSize="40sp"
+                        android:textColor="@color/color_fff"
+                        android:layout_height="wrap_content"/>
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_below="@+id/money_rl"
+                    android:orientation="vertical"
+                    android:background="@color/color_f5f5f5"
+                    android:layout_height="match_parent">
+
+                <Button
+                        android:id="@+id/withdraw_btn"
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="14dp"
+                        android:background="@drawable/btn_my_assets_selector"
+                        android:textSize="18sp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:text="@string/home_my_assets_withdraw"
+                        android:gravity="center"
+                        android:textColor="@color/color_fff"
+                        android:layout_height="50dp"/>
+
+                <TextView
+                        android:id="@+id/withdraw_account_tv"
+                        android:layout_width="match_parent"
+                        android:text="@string/home_my_assets_withdraw_account"
+                        android:layout_marginTop="12dp"
+                        style="@style/Theme.Partner.My.Assent.Item"/>
+
+                <TextView
+                        android:id="@+id/transaction_record_tv"
+                        android:layout_width="match_parent"
+                        android:text="@string/home_my_assets_transaction_record"
+                        android:layout_marginTop="12dp"
+                        style="@style/Theme.Partner.My.Assent.Item"/>
+
+                <TextView android:layout_width="match_parent"
+                          android:background="@color/color_e9e9e9"
+                          android:layout_height="1px"/>
+                <TextView
+                        android:id="@+id/income_detail_tv"
+                        android:layout_width="match_parent"
+                        android:text="@string/home_my_assets_income_detail"
+                        style="@style/Theme.Partner.My.Assent.Item"/>
+
+                <TextView
+                        android:id="@+id/settlement_tv"
+                        android:layout_width="match_parent"
+                        android:text="@string/home_my_assets_settlement"
+                        android:layout_marginTop="12dp"
+                        style="@style/Theme.Partner.My.Assent.Item"/>
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</LinearLayout>

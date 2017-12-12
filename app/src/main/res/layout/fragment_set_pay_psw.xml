@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/color_fff"
+              android:orientation="vertical">
+
+    <include layout="@layout/widget_toolbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/bg_gray_light_input"
+        android:gravity="center_vertical"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp">
+
+        <TextView
+            style="@style/Theme.Partner.Text.dark.14"
+            android:text="@string/partner_personal_account_new_psw"/>
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="33dp"
+            android:layout_marginLeft="11dp"
+            android:background="@color/color_D1D1D1"/>
+
+        <EditText
+            android:id="@+id/new_psw_edit"
+            style="@style/Theme.Partner.Text.dark.14"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:hint="@string/partner_personal_account_new_psw_hint"
+            android:inputType="textPassword"
+            android:maxLength="20"
+            android:maxLines="1"
+            android:paddingLeft="7dp"
+            android:textColorHint="@color/color_A8A8A8"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/confirm_psw_edit"
+        style="@style/Theme.Partner.Text.dark.14"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/bg_gray_light_input"
+        android:hint="@string/partner_personal_account_confirm_psw"
+        android:inputType="textPassword"
+        android:maxLength="20"
+        android:maxLines="1"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:textColorHint="@color/color_A8A8A8"/>
+
+    <Button
+        android:id="@+id/confirm_set_btn"
+        style="@style/Widget.Partner.Login_Btn"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/partner_personal_account_confirm_set"/>
+</LinearLayout>

@@ -1,0 +1,149 @@
+apply plugin: 'com.android.application'
+apply plugin: 'org.greenrobot.greendao'
+apply plugin: 'com.neenbedankt.android-apt'
+
+//打包日期
+def releaseTime() {
+    return new Date().format("yyyyMMdd", TimeZone.getTimeZone("UTC"))
+}
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVer
+    buildToolsVersion rootProject.ext.buildToolsVer
+    defaultConfig {
+        applicationId "com.hhly.partner"
+        minSdkVersion rootProject.ext.minSdkVer
+        targetSdkVersion rootProject.ext.targetSdkVer
+        versionCode 100
+        versionName "1.0.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+
+
+    signingConfigs {
+
+        //签名配置
+        release {
+            storeFile file("lyhy.jks")
+            storePassword "lyhy2017"
+            keyAlias "LYHY"
+            keyPassword "LYHY2017"
+        }
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled true
+            shrinkResources true
+            signingConfig signingConfigs.release
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        release {
+            minifyEnabled true
+            shrinkResources true
+            signingConfig signingConfigs.release
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    packagingOptions {
+        exclude 'META-INF/services/javax.annotation.processing.Processor' // butterknife
+    }
+
+    configurations.all {
+        resolutionStrategy.force 'com.google.code.findbugs:jsr305:3.0.1'
+        resolutionStrategy.force "com.android.support:appcompat-v7:${rootProject.ext.supportLibVer}"
+    }
+
+    //添加渠道配置
+    productFlavors {
+        lyhy {}
+    }
+    productFlavors.all {
+        flavor -> flavor.manifestPlaceholders = [UMENG_CHANNEL_VALUE: name]
+    }
+    applicationVariants.all { variant ->
+        variant.outputs.each { output ->
+            def outputFile = output.outputFile
+            if (outputFile != null && outputFile.name.endsWith('.apk')) {
+                // 输出apk名称为
+                def fileName = "partner_${defaultConfig.versionName}_${releaseTime()}_${variant.productFlavors[0].name}.apk"
+                output.outputFile = new File(outputFile.parent, fileName)
+            }
+        }
+    }
+}
+
+
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    testCompile 'junit:junit:4.12'
+    //support
+    compile "com.android.support:appcompat-v7:${rootProject.ext.supportLibVer}"
+    compile "com.android.support:recyclerview-v7:${rootProject.ext.supportLibVer}"
+    compile "com.android.support:design:${rootProject.ext.supportLibVer}"
+
+    //rxbinding
+    compile "com.jakewharton.rxbinding2:rxbinding:${rootProject.ext.rxbindingVer}"
+    compile "com.jakewharton.rxbinding2:rxbinding-appcompat-v7:${rootProject.ext.rxbindingVer}"
+    compile "com.jakewharton.rxbinding2:rxbinding-design:${rootProject.ext.rxbindingVer}"
+
+    //retrofit2.x
+    compile "com.squareup.retrofit2:retrofit:${rootProject.ext.retrofitVer}"
+    compile "com.squareup.retrofit2:retrofit:${rootProject.ext.retrofitVer}"
+    compile "com.squareup.retrofit2:retrofit-adapters:${rootProject.ext.retrofitVer}"
+    compile "com.squareup.retrofit2:retrofit-converters:${rootProject.ext.retrofitVer}"
+    compile "com.squareup.retrofit2:adapter-rxjava2:${rootProject.ext.retrofitVer}"
+    compile "com.squareup.retrofit2:converter-gson:${rootProject.ext.retrofitVer}"
+
+    //gson
+    compile "com.google.code.gson:gson:${rootProject.ext.gsonVer}"
+
+    //okHttp
+    compile "com.squareup.okhttp3:okhttp:${rootProject.ext.okHttpVer}"
+    compile "com.squareup.okhttp3:logging-interceptor:${rootProject.ext.okHttpVer}"
+
+    //rxJava
+    compile "io.reactivex.rxjava2:rxjava:${rootProject.ext.rxJavaVer}"
+    compile "io.reactivex.rxjava2:rxandroid:${rootProject.ext.rxAndroidVer}"
+
+    //rxlifecycle
+    compile "com.trello.rxlifecycle2:rxlifecycle:${rootProject.ext.rxlifecycleVer}"
+    compile "com.trello.rxlifecycle2:rxlifecycle-components:${rootProject.ext.rxlifecycleComponentsVer}"
+
+    //rxPermission
+    compile "com.tbruyelle.rxpermissions2:rxpermissions:${rootProject.ext.rxPermissionsVer}"
+
+    //glide
+    compile "com.github.bumptech.glide:glide:${rootProject.ext.glideVer}"
+
+    //logger
+    compile "com.orhanobut:logger:${rootProject.ext.loggerVer}"
+    //greendao
+//    compile "org.greenrobot:greendao:${rootProject.ext.greendaoVer}"
+
+    //bufferknife
+    compile "com.jakewharton:butterknife:${rootProject.ext.butterKnifeVer}"
+    apt "com.jakewharton:butterknife-compiler:${rootProject.ext.butterKnifeVer}"
+
+    //recyclerViewAdapterHelper
+    compile "com.github.CymChad:BaseRecyclerViewAdapterHelper:${rootProject.ext.baseRecyclerViewHelperVer}"
+
+    //MPAndroidChart
+    compile "com.github.PhilJay:MPAndroidChart:${rootProject.ext.MPAndroidChartVer}"
+
+    //bannerView
+    compile project(path: ':bannerlibrary')
+    //flowLayout
+    compile "com.zhy:flowlayout-lib:${rootProject.ext.flowLayoutVer}"
+    //zxing 生成二维码
+    compile "com.google.zxing:core:${rootProject.ext.zxingCoreVer}"
+    //NestFullListView
+    compile "com.github.mcxtzhang:NestFullListView:${rootProject.ext.NestFullListViewVer}"
+    //分享 , 登录包装库
+    compile project(":handlers")
+}

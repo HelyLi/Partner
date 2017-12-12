@@ -1,0 +1,422 @@
+<resources>
+    <string name="app_name">合作伙伴</string>
+    <string name="default_progress_tip">正在加载...</string>
+    <string name="tab_home">首页</string>
+    <string name="tab_activity">活动</string>
+    <string name="tab_product">产品</string>
+    <string name="tab_me">个人</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="account">账号</string>
+    <string name="password">密码</string>
+    <string name="forget_password">忘记密码</string>
+    <string name="wechat">微信</string>
+    <string name="weibo">微博</string>
+    <string name="qq">QQ</string>
+    <string name="please_input_telephone">请输入手机号</string>
+    <string name="please_input_auth_code">请输入验证码</string>
+    <string name="please_input_password">请输入密码</string>
+
+    <string name="get_auth_code">获取验证码</string>
+    <string name="register_description">手机号码即为登录账号，我们将发送验证码短信到该号码</string>
+    <string name="next_step">下一步</string>
+    <string name="get_auth_cd">%1$dS</string>
+    <string name="reget_auth_code">重新获取</string>
+    <string name="please_reinput_password">请再次输入密码</string>
+    <string name="please_verify_password">请确保两次密码的统一性</string>
+    <string name="generalize_code">推广编码</string>
+    <string name="please_input_generalize_code">请输入推广人的邀请码</string>
+    <string name="generalize_code_dispensable">若没有推广人，可不填写</string>
+    <string name="complete">完成</string>
+    <string name="please_input_password_length">密码长度应至少6位</string>
+
+    <!--公共部分 start -->
+    <string name="partner_check_network">请检查网络</string>
+    <string name="partner_request_network_error">网络不给力,稍后重试！</string>
+    <string name="partner_confirm">确定</string>
+    <string name="partner_cancel">取消</string>
+    <string name="partner_delete">删除</string>
+    <string name="partner_exit_app">再按一次退出程序</string>
+    <string name="partner_no_data">暂无数据</string>
+    <string name="partner_request_error">网络不给力,稍后重试！</string>
+    <string name="partner_set_success">设置成功</string>
+    <string name="partner_set_failure">设置失败</string>
+    <string name="partner_submitting">正在提交&#8230;</string>
+    <string name="partner_version">版本v%1$s</string>
+    <string name="partner_expect">敬请期待</string>
+    <string name="partner_url_h5">http://m.game.13322.com</string>
+    <string name="partner_statistics">统计</string>
+    <string name="partner_skip">跳过</string>
+    <string name="partner_data_exception">数据异常</string>
+    <string name="partner_wifi_network_available">当前WiFi连接可用</string>
+    <string name="partner_mobile_network_available">当前移动网络连接可用</string>
+    <string name="partner_network_not_available">当前网络不可用</string>
+    <!--公共部分 end -->
+
+
+    <string name="login_regex_phone">请输入正确的手机号</string>
+
+    <string name="partner_account_reset">忘记密码</string>
+    <string name="partner_account_reset_register_phone">请输入您注册时的手机号</string>
+    <string name="partner_account_reset_sms_code">请输入短信验证码</string>
+    <string name="partner_account_reset_new_pwd">请输入新密码</string>
+    <string name="partner_account_reset_error">重置密码异常</string>
+    <string name="partner_account_reset_empty_phone">手机号码未注册</string>
+    <string name="partner_account_reset_code_err">验证码或者手机号码不正确</string>
+
+    <string name="register_get_code_fail">验证码获取失败</string>
+    <string name="register_get_code_success">验证码已发送</string>
+    <string name="register_phone_input_error">您输入的手机号码不正确</string>
+    <string name="register_auth_code_confirm_error">验证码不正确</string>
+    <string name="register_auth_code_not_empty">验证码不能为空</string>
+    <string name="register_partner_no_err">邀请码错误</string>
+    <string name="register_fail">注册失败</string>
+    <string name="register_success">注册成功</string>
+    <string name="register_psw_length_error">密码格式必须是6-20位数字字母组合</string>
+    <string name="register_confirm_psw_error">两次输入的密码不相符</string>
+
+    <string name="reset_pwd_get_code">验证码已发送</string>
+
+    <string name="salary_modify_model">佣金模式修改</string>
+    <string name="salary_modify_model_select">佣金模式选择</string>
+    <string name="salary_ll_game">乐盈电竞</string>
+    <string name="salary_hy_tv">海妖直播</string>
+    <string name="salary_game_platform">游戏平台</string>
+    <string name="salary_select_return_model">请选择返佣方式</string>
+
+    <string name="activity_official">官方活动</string>
+    <string name="activity_teamwork">合作活动</string>
+    <string name="activity_in_progress">进行中</string>
+    <string name="activity_finished">已结束</string>
+    <string name="activity_details">活动详情</string>
+    <string name="activity_details_author">作者：%1$s</string>
+    <string name="activity_details_date">时间：%1$s</string>
+
+    <string name="partner_home_today_money">今日获得金额(元)</string>
+    <string name="partner_home_today_money_num">0.00</string>
+    <string name="partner_home_proxy_people">代理人数</string>
+    <string name="partner_home_proxy_product">代理产品</string>
+    <string name="partner_home_proxy_pay_count">付费次数</string>
+    <string name="partner_home_proxy_num">0</string>
+    <string name="partner_home_item_my_proxy">我的代理</string>
+    <string name="partner_home_item_my_proxy_en">Agent</string>
+    <string name="partner_home_item_my_assets">我的资产</string>
+    <string name="partner_home_item_my_assets_en">Assets</string>
+    <string name="partner_home_item_data">数据统计</string>
+    <string name="partner_home_item_data_en">Data</string>
+    <string name="partner_home_item_extension">产品推广</string>
+    <string name="partner_home_item_extension_en">Extension</string>
+    <string name="partner_home_item_proxy_rule">代理规则</string>
+    <string name="partner_home_item_proxy_rule_en">Rule</string>
+    <string name="partner_home_item_rebate">模式修改</string>
+    <string name="partner_home_item_rebate_en">Rebate</string>
+
+    <string name="partner_product_manage">产品管理</string>
+    <string name="partner_product_recommend">推荐</string>
+    <string name="partner_product_action">动作</string>
+    <string name="partner_product_recreation">娱乐</string>
+    <string name="partner_product_adventure">冒险</string>
+    <string name="partner_product_shoot">射击</string>
+    <string name="partner_product_strategy">策略</string>
+    <string name="partner_product_role">角色</string>
+    <string name="partner_product_chess">棋牌</string>
+    <string name="partner_product_hot_game">热门游戏</string>
+    <string name="partner_product_highest_profit">最高盈利产品</string>
+    <string name="partner_product_max_proxy">最多人代理</string>
+    <string name="partner_product_newest_game">最新游戏</string>
+    <string name="partner_product_android_game">安卓</string>
+    <string name="partner_product_proxy_num">%1$d人代理</string>
+    <string name="partner_product_proxy_person_num">%1$d人在代理</string>
+    <string name="partner_product_generalize">推广</string>
+    <string name="partner_product_proxy_ratio">代理比例：15%-70%</string>
+    <string name="partner_product_divide_ratio">分成比例：15%-70%</string>
+    <string name="partner_product_proxy_ranking_list">代理排行榜</string>
+    <string name="partner_product_proxy_account">代理账号</string>
+    <string name="partner_product_proxy_amount">金额</string>
+    <string name="partner_product_proxy_ranking">排名</string>
+    <string name="partner_product_proxy_game_cur_ranking">游戏当前排名是第%1$d</string>
+    <string name="partner_product_proxy_game_no_ranking">您在此游戏暂无排名</string>
+    <string name="partner_product_search_hint">请输入你要搜索的游戏</string>
+    <string name="partner_product_search_clear">清空</string>
+    <string name="partner_product_search_empty">没找到相关游戏</string>
+    <string name="partner_product_record_search_empty">暂无历史搜索记录</string>
+    <string name="partner_product_history_search">历史搜索</string>
+    <string name="partner_product_private_proxy">独代产品</string>
+    <string name="partner_product_private_proxy_dj">乐盈电竞</string>
+    <string name="partner_product_private_proxy_sports">体育竞猜</string>
+    <string name="partner_product_private_proxy_dz">撩妹德州</string>
+
+    <string name="partner_product_hot">热门产品</string>
+
+    <string name="partner_home_agent">我的代理</string>
+
+    <string name="partner_personal_account_setting">账户设置</string>
+    <string name="partner_personal_notice">通知</string>
+    <string name="partner_personal_cash_account">提现账户</string>
+    <string name="partner_personal_about_us">关于我们</string>
+    <string name="partner_personal_promotion">个人推广</string>
+    <string name="partner_personal_invite_code">邀请码</string>
+    <string name="partner_personal_your_invite_code">您的邀请码是：</string>
+    <string name="partner_personal_modify_salary_model">修改佣金计算方式</string>
+    <string name="partner_personal_account_login">登录账号</string>
+    <string name="partner_personal_account_exit">退出登录</string>
+    <string name="partner_personal_account_exit_success">退出成功</string>
+    <string name="partner_personal_account_exit_fail">退出失败</string>
+    <string name="partner_personal_account_pay_psw">支付密码</string>
+    <string name="partner_personal_account_modify_psw">修改密码</string>
+    <string name="partner_personal_account_input_old_psw">请输入原始密码</string>
+    <string name="partner_personal_account_input_new_psw">请输入新密码</string>
+    <string name="partner_personal_account_modify_psw_success">修改密码成功</string>
+    <string name="partner_personal_account_modify_psw_fail">修改密码失败</string>
+    <string name="partner_personal_account_error_old_psw">原始密码错误</string>
+    <string name="partner_personal_account_input_confirm_psw">请输入确认密码</string>
+    <string name="partner_personal_account_set_pay_psw">设置支付密码</string>
+    <string name="partner_personal_account_modify_pay_psw">修改支付密码</string>
+    <string name="partner_personal_account_modify_pay_psw_success">修改支付密码成功</string>
+    <string name="partner_personal_account_modify_pay_psw_fail">修改支付密码失败</string>
+    <string name="partner_personal_account_new_psw">新密码</string>
+    <string name="partner_personal_account_new_psw_hint">8&#8211;20位数字和字母组合</string>
+    <string name="partner_personal_account_input_psw_hint">请输入8&#8211;20位数字和字母组合</string>
+    <string name="partner_personal_account_psw_length_error">密码格式必须是8-20位数字字母组合</string>
+    <string name="partner_personal_account_confirm_psw">确认密码</string>
+    <string name="partner_personal_account_confirm_modify">确认修改</string>
+    <string name="partner_personal_account_confirm_set">确认设置</string>
+    <string name="partner_personal_account_add_card">添加银行卡</string>
+    <string name="partner_personal_account_deposit_card">储蓄卡</string>
+    <string name="partner_personal_account_bank">银行：</string>
+    <string name="partner_personal_account_select_bank">选择银行</string>
+    <string name="partner_personal_account_bank_card">银行卡号：</string>
+    <string name="partner_personal_account_name">姓名：</string>
+    <string name="partner_personal_account_input_card">填入银行卡号</string>
+    <string name="partner_personal_account_input_card_num">银行卡号格式不正确</string>
+    <string name="partner_personal_account_phone">手机号码：</string>
+    <string name="partner_personal_account_input_phone">请输入注册时的手机号</string>
+    <string name="partner_personal_account_auth_code">验证码：</string>
+    <string name="partner_personal_account_input_auth_code">请输入短信验证码</string>
+    <string name="partner_personal_account_add_card_fail">添加银行卡失败</string>
+    <string name="partner_personal_account_add_card_success">添加成功</string>
+    <string name="partner_personal_account_for_safe">为了您的安全</string>
+    <string name="partner_personal_account_auth_info">提现前需要对您的账户进行身份验证</string>
+    <string name="partner_personal_account_auth_now">现在认证</string>
+    <string name="partner_personal_account_auth_later">稍后认证</string>
+    <string name="partner_personal_id_auth">身份验证</string>
+    <string name="partner_personal_info">个人资料</string>
+    <string name="partner_personal_auth_china_id_card">中国大陆身份证</string>
+    <string name="partner_personal_auth_id_type">证件类型：</string>
+    <string name="partner_personal_auth_name">真实姓名：</string>
+    <string name="partner_personal_auth_id_name">您证件上的名字</string>
+    <string name="partner_personal_auth_id_num">证件号码：</string>
+    <string name="partner_personal_auth_input_id_num">请输入15位或18位身份证号码</string>
+    <string name="partner_personal_auth_submit">提交验证</string>
+    <string name="partner_personal_auth_same">一致</string>
+    <string name="partner_personal_auth_fail">验证失败</string>
+    <string name="partner_personal_auth_success">验证成功</string>
+    <string name="partner_personal_auth_not_match">姓名和身份证不匹配</string>
+    <string name="partner_personal_auth_input_name">请输入您证件上的姓名</string>
+
+    <string name="partner_personal_us_web_game_platform">玩一下webgame游戏平台</string>
+    <string name="partner_personal_us_h5_game_platform">玩一下H5游戏平台</string>
+    <string name="partner_personal_us_android_game_platform">玩一下安卓游戏平台</string>
+    <string name="partner_personal_us_ios_game_platform">玩一下IOS游戏平台</string>
+    <string name="partner_personal_us_llhy">乐盈互娱</string>
+    <string name="partner_personal_us_check_version">版本检测</string>
+
+    <!--<b></b>-->
+    <string name="partner_home_agent_grade">
+        <![CDATA[<font color="#1B1D2A">邀请码 : </font><font color="#7B69FF">%1$s</font>]]></string>
+    <string name="partner_home_agent_sub_proxy">
+        <![CDATA[<font color="#1B1D2A">下级代理 : </font><font color="#7B69FF">%1$s</font>]]></string>
+    <string name="partner_home_agent_total_money">
+        <![CDATA[<font color="#1B1D2A">总收入 : </font><font color="#7B69FF">%1$s</font>]]></string>
+
+    <string name="home_agent_total_money">总收入</string>
+    <string name="home_agent_register_time">注册时间</string>
+    <string name="home_agent_sub_agent">下级代理</string>
+
+
+    <string name="agent_count_incomes">收入统计</string>
+    <string name="agent_count_agent_people">代理人数</string>
+    <string name="agent_count_agent_products">代理产品</string>
+    <string name="agent_count_agent_paid_num">付费次数</string>
+    <string name="agent_count_chart_count">统计</string>
+    <string name="agent_count_chart_people">人数</string>
+    <string name="agent_count_chart_products">产品</string>
+    <string name="agent_count_chart_paid">次数</string>
+    <string name="agent_count_agent_7">7天</string>
+    <string name="agent_count_agent_30">30天</string>
+    <string name="agent_count_agent_90">90天</string>
+    <string name="agent_count_incomes_7">七日收入</string>
+    <string name="agent_count_incomes_day">单日收入</string>
+    <string name="agent_count_incomes_max">最高收入</string>
+    <string name="agent_count_people_sub">二级代理</string>
+    <string name="agent_count_people_sub_sub">三级代理</string>
+    <string name="agent_count_people_under">直属会员</string>
+    <string name="agent_count_agent_paid_under">直属会员</string>
+    <string name="agent_count_agent_paid_proxy">发展代理</string>
+    <string name="agent_count_agent_qualified_member">合格会员</string>
+    <string name="agent_count_agent_my_money">我的资产</string>
+    <string name="agent_count_agent_my_agent">我的代理</string>
+    <string name="agent_count_agent_under">直属会员</string>
+    <string name="agent_count_agent_product_hall">产品大厅</string>
+
+    <string name="home_my_assets">我的资产</string>
+    <string name="home_my_assets_money_description">账户可用余额</string>
+    <string name="home_my_assets_money">0.00</string>
+    <string name="home_my_assets_withdraw">提现</string>
+    <string name="home_my_assets_withdraw_success">提现成功,等待后台审核</string>
+    <string name="home_my_assets_withdraw_failure">每月仅可提现一次</string>
+    <string name="home_my_assets_withdraw_account">提现账户</string>
+    <string name="home_my_assets_transaction_record">交易记录</string>
+    <string name="home_my_assets_income_detail">收入明细</string>
+    <string name="home_my_assets_settlement">结算规则</string>
+    <string name="home_my_assets_pay_pwd_error">支付密码错误</string>
+
+    <string name="home_member_day">日充值</string>
+    <string name="home_member_week">周充值</string>
+    <string name="home_member_month">月充值</string>
+    <string name="home_member_register_time">注册时间</string>
+    <string name="home_member_account_name">账户名</string>
+    <string name="home_member_money">充值金额</string>
+    <string name="home_member_pay_count">付费次数</string>
+
+    <string name="home_transaction_account">
+        <![CDATA[<font color="#1B1D2A">账号 :  </font><font color="#7B69FF"><b>%1$s</b></font>]]></string>
+    <string name="home_transaction_account_money">
+        <![CDATA[<font color="#1B1D2A">账户余额 :  </font><font color="#7B69FF"><b>%1$s</b></font>]]></string>
+    <string name="home_transaction_last_time">
+        <![CDATA[<font color="#1B1D2A">最后交易时间 :  </font><font color="#7B69FF"><b>%1$s</b></font>]]></string>
+
+    <string name="home_transaction_time">交易时间</string>
+    <string name="home_transaction_type">交易方式</string>
+    <string name="home_transaction_money">交易金额</string>
+    <string name="home_transaction_type_content">银行卡提现</string>
+
+    <string name="home_property_income_detail">收入明细</string>
+    <string name="income_detail_agent_money">
+        <![CDATA[<font color="#1B1D2A">代理金额:  </font><font color="#7B69FF"><b>%1$s</b></font>]]></string>
+    <string name="income_detail_member_money">
+        <![CDATA[<font color="#1B1D2A">直属会员金额:  </font><font color="#7B69FF"><b>%1$s</b></font>]]></string>
+
+    <string name="property_settlement">结算规则</string>
+    <string name="property_settlement_title">&#160;&#160;&#160;&#160;【结算规则】</string>
+    <string name="property_settlement_content">
+        <![CDATA[
+        <font color="#1B1D2A">
+        &nbsp;&nbsp;&nbsp;&nbsp;1.每月必须最少有</font>
+        <font color="#7B69FF">5</font>
+        <font color="#1B1D2A">个合格会员。合格会员的满足条件为当月项目有效付费为</font>
+        <font color="#7B69FF">100</font>
+        <font color="#1B1D2A">元。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;2.单月佣金必须最低达到人民币</font>
+        <font color="#7B69FF">100</font>
+        <font color="#1B1D2A">元才能提现。如佣金少于</font>
+        <font color="#7B69FF">100</font>
+        <font color="#1B1D2A">元，将会累计到下月的佣金一起发放。手续费从代理费用里面扣除。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;3.每月的佣金将在下个月的</font>
+        <font color="#7B69FF">3</font>
+        <font color="#1B1D2A">号至</font>
+        <font color="#7B69FF">5</font>
+        <font color="#1B1D2A">号进行提款申请，公司将在</font>
+        <font color="#7B69FF">15</font>
+        <font color="#1B1D2A">号之前打款。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;4.合作伙伴需负责支付会员所得的优惠红利（如平台返利）或其他促销活动等所产生的费用。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;5.任何使用不诚实的方法或不正当方式以骗取佣金将会永久冻结账户，所有佣金一概不予发放。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;6.在进行合作伙伴账号违规行为调查的期间，玩一下平台将会暂停开放合作伙伴提现功能，直到对该账号审核完毕。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;7.在没有预先通知的情况下，玩一下平台有权更改以上条款与条列。最终解释权归玩一下平台所有。
+        <br/>&nbsp;&nbsp;&nbsp;&nbsp;8.合伙人每月最多可以作出一次提款申请。目前我们给予大家的提款申请服务是免费的，但我们并不会负担任何转帐手续费或电子转帐所需服务费用。</font>
+        ]]>
+    </string>
+
+    <string name="home_partner_agent">合作伙伴代理</string>
+    <string name="home_agent_rule">代理规则</string>
+    <string name="home_agent_rule_growup">合作伙伴成长步骤</string>
+    <string name="home_agent_growup">成长步骤</string>
+    <string name="home_agent_rule_income">合作伙伴收入说明</string>
+    <string name="home_agent_income">收入说明</string>
+    <string name="home_agent_rule_rules">条款与规则</string>
+
+    <string name="home_agent_extension">推广</string>
+    <string name="home_agent_extension_agent">代理推广</string>
+    <string name="home_agent_extension_h5">H5平台推广</string>
+    <string name="home_agent_extension_android">Android平台推广</string>
+    <string name="home_agent_extension_pc">PC平台推广</string>
+    <string name="home_agent_extension_private">独家</string>
+    <string name="home_agent_extension_recommend">推荐</string>
+    <string name="home_agent_extension_offline">单机</string>
+    <string name="home_agent_extension_online">网游</string>
+    <string name="home_agent_extension_add_game">添加游戏</string>
+    <string name="home_agent_extension_recommend_game">精品推荐</string>
+    <string name="home_agent_extension_play_game">玩一下游戏</string>
+    <string name="home_agent_extension_play_num">2333人玩过</string>
+    <string name="home_agent_extension_in">进入</string>
+    <string name="home_agent_extension_more_game">更多</string>
+    <string name="home_agent_extension_member">会员推广</string>
+
+    <string name="home_rebate_select_type">请选择返佣方式</string>
+    <string name="home_rebate_select_lose_win">按输赢总额</string>
+    <string name="home_rebate_select_effective">按有效金额</string>
+    <string name="home_rebate_select_recharge">按充值总额</string>
+    <string name="home_rebate_select_all">返佣方式未选择完成</string>
+    <string name="home_rebate_select_change_success">修改成功，新模式将于次月1号起生效</string>
+
+    <string name="home_property_income_detail_agent">代理收入明细</string>
+    <string name="home_property_income_detail_member">会员收入明细</string>
+    <string name="home_transaction_phone">账号</string>
+
+    <string name="home_property_withdraw">提现</string>
+    <string name="home_property_withdraw_account">提现账户</string>
+    <string name="home_property_withdraw_no_bank">暂无银行</string>
+    <string name="home_property_withdraw_money">提现金额</string>
+    <string name="home_property_withdraw_password">请输入提现密码:</string>
+    <string name="home_property_withdraw_can_money">
+        <![CDATA[<font color="#1B1D2A">可提现金额 :&nbsp;&nbsp;</font><font color="#7B69FF">%1$s</font>]]></string>
+    <string name="home_property_withdraw_now">立即提现</string>
+    <string name="home_property_withdraw_description">
+        <![CDATA[
+        <font color="#FF0000">*</font>
+        <font color="#A8A8A8">金额低于%1$s元时不可提现，请努力赚钱哟！</font>
+        <br/>
+        <font color="#FF0000">*</font>
+        <font color="#A8A8A8">提现日期为每个月的: %2$s号-%3$s号</font>
+]]>
+    </string>
+    <string name="home_property_select_bank">选择银行卡</string>
+    <string name="home_property_select_bank_new">使用新卡提现</string>
+    <string name="home_property_withdraw_money_empty">提现金额不能为空</string>
+    <string name="home_property_withdraw_money_big">提现金额大于可提现金额</string>
+    <string name="home_property_withdraw_password_empty">提现密码不能为空</string>
+    <string name="home_property_withdraw_money_litter">提现金额少于%1$d,请努力赚钱哟!</string>
+
+    <string name="partner_home_pay_agent_count">
+        <![CDATA[<font color="#1B1D2A">付费次数 :&nbsp;&nbsp;</font><font color="#7B69FF">%1$d</font>]]></string>
+    <string name="partner_home_pay_agent_money_total">
+        <![CDATA[<font color="#1B1D2A">付费金额总数 :&nbsp;&nbsp;</font><font color="#7B69FF">%1$s</font>]]></string>
+
+    <string name="home_property_withdraw_pay_pwd_empty">您还没有设置支付密码 ,</string>
+    <string name="home_property_withdraw_pay_pwd_setting">去设置 ></string>
+
+    <string name="home_extension">推广</string>
+    <string name="home_extension_agent">代理推广</string>
+    <string name="home_extension_custom_page">自定义页面</string>
+    <string name="home_extension_add_banner">添加banner</string>
+    <string name="home_extension_pic_res">图片素材</string>
+    <string name="home_extension_select_pic_res">请选择图片素材</string>
+    <string name="home_extension_pic_res_max_select">最多只能选择3个</string>
+
+
+    <string name="partner_update_no_update">当前已是最新版本</string>
+    <string name="partner_update_exit">退出App</string>
+    <string name="partner_update_download">立即更新</string>
+    <string name="partner_update_downloading">已在下载中&#8230;</string>
+    <string name="partner_update_no_write_cd_permission">获取写入sd卡权限失败</string>
+
+
+    <string name="partner_share_sina">分享到新浪微博</string>
+    <string name="partner_share_qq_zone">分享到QQ空间</string>
+
+    <string name="partner_share_success">分享成功</string>
+    <string name="partner_share_failure">分享失败</string>
+    <string name="partner_share_cancel">分享取消</string>
+
+
+</resources>

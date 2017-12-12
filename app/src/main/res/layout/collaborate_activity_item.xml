@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="15dp">
+
+    <com.hhly.partner.presentation.view.widget.RoundImageView
+        android:id="@+id/content_img"
+        android:layout_width="match_parent"
+        android:layout_height="173dp"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/content_img"
+        android:layout_marginTop="12dp"
+        android:layout_toLeftOf="@+id/date_tv"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/color_1B1D2A"
+        android:textSize="@dimen/text_size_16"/>
+
+    <TextView
+        android:id="@+id/date_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/content_img"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/color_A8A8A8"
+        android:textSize="@dimen/text_size_12"/>
+
+    <TextView
+        android:id="@+id/state_tv"
+        android:layout_width="61dp"
+        android:layout_height="21dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/activity_state_selector"
+        android:visibility="gone"
+        android:gravity="center"
+        android:textColor="@color/color_fff"/>
+</RelativeLayout>
