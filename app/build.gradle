@@ -128,7 +128,7 @@ dependencies {
 
     //bufferknife
     implementation "com.jakewharton:butterknife:${rootProject.ext.butterKnifeVer}"
-    apt "com.jakewharton:butterknife-compiler:${rootProject.ext.butterKnifeVer}"
+    annotationProcessor "com.jakewharton:butterknife-compiler:${rootProject.ext.butterKnifeVer}"
 
     //recyclerViewAdapterHelper
     implementation "com.github.CymChad:BaseRecyclerViewAdapterHelper:${rootProject.ext.baseRecyclerViewHelperVer}"
